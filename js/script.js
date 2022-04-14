@@ -3,24 +3,24 @@
 //
 // This program accepts user input
 
-"use strict";
+"use strict"
 
- // Check servie worker.
-  
+// Check servie worker.
+
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
     scope: "/ICS2O-PWA-Test/",
-  });
+  })
 }
 
 // This function calculates the volume of a sphere.
-  
-function calculate () {
+
+function calculate() {
   // input
   const radius = parseInt(document.getElementById("radius").value)
   // process
-  const volume = 4/3 * Math.PI * Math.pow(radius, 3)
+  const volume = (4 / 3) * Math.PI * Math.pow(radius, 3)
   // output
   document.getElementById("volume").innerHTML =
-    "The volume is: " + volume.toFixed(2) + ' cm³' 
+    "The volume is: " + volume.toFixed(2) + " cm³"
 }
