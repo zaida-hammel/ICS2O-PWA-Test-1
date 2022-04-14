@@ -20,6 +20,7 @@ if (navigator.serviceWorker) {
 function calculate() {
   // input
 <<<<<<< HEAD
+<<<<<<< HEAD
   const radius = parseInt(document.getElementById("radius").value)
   // process
   const volume = 4/3 * Math.PI * Math.pow(radius, 3)
@@ -28,6 +29,8 @@ function calculate() {
     "The volume is: " + volume.toFixed(2) + ' cm³' 
 }
 =======
+=======
+>>>>>>> origin/main
   const length = parseFloat(document.getElementById("length-of-pyramid").value);
   const width = parseFloat(document.getElementById("width-of-pyramid").value);
   const height = parseFloat(document.getElementById("height-of-pyramid").value);
@@ -39,4 +42,7 @@ function calculate() {
   document.getElementById("volume").innerHTML =
     "The volume is: " + volume.toFixed(2) + " mm³";
 }
+<<<<<<< HEAD
+>>>>>>> origin/main
+=======
 >>>>>>> origin/main
