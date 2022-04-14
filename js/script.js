@@ -5,15 +5,18 @@
 
 "use strict"
 
-// Check servie worker.
-
+/**
+ * Check servie worker.
+ */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
     scope: "/ICS2O-PWA-Test/",
   })
 }
 
-// This function calculates the volume of a sphere. 
+/**
+ * This function calculates the volume of a sphere.
+ */
 function calculate () {
   // input
   const radius = parseInt(document.getElementById("radius").value)
