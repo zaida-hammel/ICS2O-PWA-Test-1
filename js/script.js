@@ -5,22 +5,18 @@
 
 "use strict";
 
-/**
- * Check servie worker.
- */
+ // Check servie worker.
+  
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-PWA-Test/sw.js", {
     scope: "/ICS2O-PWA-Test/",
   });
 }
 
-/**
- * This function calculates the volume of a sphere.
- */
+// This function calculates the volume of a sphere.
+  
 function calculate() {
   // input
-<<<<<<< HEAD
-<<<<<<< HEAD
   const radius = parseInt(document.getElementById("radius").value)
   // process
   const volume = 4/3 * Math.PI * Math.pow(radius, 3)
@@ -42,7 +38,3 @@ function calculate() {
   document.getElementById("volume").innerHTML =
     "The volume is: " + volume.toFixed(2) + " mm³";
 }
-<<<<<<< HEAD
->>>>>>> origin/main
-=======
->>>>>>> origin/main
