@@ -22,11 +22,8 @@ function calculate() {
   const volume = 4/3 * Math.PI * Math.pow(radius, 3)
   // output
   document.getElementById("volume").innerHTML =
-    "The volume is: " + volume.toFixed(2) + ' cm³' 
+    "The volume is: " + volume.toFixed(2) + " cm³" 
 }
-=======
-=======
->>>>>>> origin/main
   const length = parseFloat(document.getElementById("length-of-pyramid").value);
   const width = parseFloat(document.getElementById("width-of-pyramid").value);
   const height = parseFloat(document.getElementById("height-of-pyramid").value);
