@@ -17,7 +17,7 @@ if (navigator.serviceWorker) {
 /**
  * This function calculates the volume of a sphere.
  */
-function calculate () {
+function calculate() {
   // input
   const radius = parseInt(document.getElementById("radius").value)
   // process
